@@ -9,6 +9,7 @@ fi
 # 设置目标目录
 install_dir="/usr/local"
 mkdir "$install_dir/share/v2ray/"
+mkdir "$install_dir/etc/v2ray/"
 
 # 复制文件到目标目录
 cp v2ray "$install_dir/bin/"
