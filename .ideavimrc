@@ -20,6 +20,9 @@ map Q gq
 set ignorecase
 set smartcase
 
+" Dont wrap search
+set nowrapscan
+
 " set system clipboard
 set clipboard+=unnamedplus
 
