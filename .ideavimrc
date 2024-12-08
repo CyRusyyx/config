@@ -45,7 +45,7 @@ Plug 'tpope/vim-commentary'
 set relativenumber
 
 " set eazymotion
-let mapleader="mm"
+" let mapleader="mm"
 set easymotion
 map <Leader> <Plug>(easymotion-prefix)
 
