@@ -17,8 +17,6 @@ Plug 'tpope/vim-commentary'
 Plug 'justinmk/vim-sneak'
 Plug 'tpope/vim-surround'
 Plug 'chrisbra/matchit'
-Plug 'easymotion/vim-easymotion'
-map <Leader> <Plug>(easymotion-prefix)
 
 Plug 'terryma/vim-multiple-cursors'
 " Remap multiple-cursors shortcuts to match terryma/vim-multiple-cursors
@@ -36,8 +34,10 @@ xmap <leader><C-n> <Plug>AllWholeOccurrences
 nmap <leader>g<C-n> <Plug>AllOccurrences
 xmap <leader>g<C-n> <Plug>AllOccurrences
 
-" Set quickscope plug
+" ext plug
 set quickscope
+set easymotion
+map <Leader> <Plug>(easymotion-prefix)
 
 " Set automatic alter input
 " set kee-english-in-normal " 开启输入法自动切换功能
