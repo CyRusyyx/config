@@ -34,13 +34,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
 
-# Set v2ray proxy
-#  export ALL_PROXY="socks5://127.0.0.1:10808"
-#  export http_proxy="http://127.0.0.1:10809"
-#  export https_proxy="http://127.0.0.1:10809"
-#  export NO_PROXY=127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
+# ================== #
+# User Configuration
 
 # set autojump
 . /usr/share/autojump/autojump.sh
@@ -49,3 +45,12 @@ source $ZSH/oh-my-zsh.sh
 # Bind key
 bindkey -M emacs '^P' history-substring-search-up
 bindkey -M emacs '^N' history-substring-search-down
+
+# Set golang proxy 
+export GOPROXY=https://goproxy.cn,http://goproxy.xiaoe-tools.com,direct,GO111MODULE=on,GONOSUMDB=talkcheap.xiaoeknow.com
+
+# Set v2ray proxy
+#  export ALL_PROXY="socks5://127.0.0.1:10808"
+#  export http_proxy="http://127.0.0.1:10809"
+#  export https_proxy="http://127.0.0.1:10809"
+#  export NO_PROXY=127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
